@@ -3,7 +3,7 @@
 SELECT *FROM clientes
 WHERE Sexo = 'f';
 
--- Exemplo 2: Selecione naa tabela de produtos apenas os produtos com preço acima de R$2000.
+-- Exemplo 2: Selecione na tabela de produtos apenas os produtos com preço acima de R$2000.
 
 SELECT * FROM produtos
 WHERE Preco_Unit > 2000;
