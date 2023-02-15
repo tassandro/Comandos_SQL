@@ -1,0 +1,21 @@
+-- ORDER BY:
+-- Exemplo 1: Faça uma consulta na tabela de clientes e faça uma ordenação 
+-- de acordo com o nome do cliente em ordem alfabética
+
+SELECT * 
+FROM clientes
+ORDER BY Nome, Sobrenome DESC;
+
+-- Exemplo 2: Faça uma consulta na tabela de clientes e faça uma ordenação de acordo com 
+-- a renda atual, da maior para a menor
+
+SELECT *
+FROM clientes
+ORDER BY Renda_Anual DESC;
+
+-- Exemplo 3: Faça uma consulta na tabela de clientes e faça uma ordenação de acordo com 
+-- a data de nascimento, do mais novo para o mais velho
+
+SELECT Nome, Sobrenome, Email, Data_Nascimento
+FROM clientes
+ORDER BY Data_Nascimento DESC;
