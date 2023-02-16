@@ -15,21 +15,4 @@ SELECT AVG(Renda_Anual) AS 'Média Salarial' FROM clientes;
 SELECT MIN(Preco_Unit) AS 'Preço Unitário Mínimo' FROM produtos;
 
 -- MAX
-SELECT MAX(Preco_Unit) AS 'Preço Unitário Máximo' FROM produtos;-- SUM, COUNT, AVG, MIN e MAX:
-
--- SUM
-SELECT * FROM pedidos;
-SELECT SUM(Receita_Venda) AS 'Receita Total' FROM pedidos;
-
--- COUNT
-SELECT COUNT(Nome) AS 'Qtd Clientes' FROM clientes
-WHERE Sexo = 'F';
-
--- AVG
-SELECT AVG(Renda_Anual) AS 'Média Salarial' FROM clientes;
-
--- MIN
-SELECT MIN(Preco_Unit) AS 'Preço Unitário Mínimo' FROM produtos;
-
--- MAX
 SELECT MAX(Preco_Unit) AS 'Preço Unitário Máximo' FROM produtos;
